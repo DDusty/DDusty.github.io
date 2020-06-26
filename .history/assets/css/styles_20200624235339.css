@@ -1,0 +1,12 @@
+---
+---
+@import "main";
+
+html{
+    width: 60%;
+    background-color: aqua;
+}
+
+*{
+    margin: 10%;
+}

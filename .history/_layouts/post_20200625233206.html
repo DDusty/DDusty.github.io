@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/page.css">
+  </head>
+  <body>
+    <div id="hero" style="background-image: url('{{ page.image }}'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+        <h2>{{ page.title }}</h2>
+    </div>
+
+    <div id="content" >
+        {{ content }}
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            alert('DOM fully loaded and parsed');
+        });
+
+        document.addEventListener('beforeunload', function() {
+            alert('BYE');
+        });
+    </script>
+  </body>
+</html>

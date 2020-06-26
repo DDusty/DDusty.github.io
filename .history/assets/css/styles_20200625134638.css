@@ -1,0 +1,13 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background: url("assets/img/bgbg.svg") no-repeat;
+    background-size: cover;
+}
+
+.header{
+    z-index: 1;
+}

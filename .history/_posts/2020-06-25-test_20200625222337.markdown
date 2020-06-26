@@ -1,0 +1,32 @@
+---
+layout: post
+title:  "Website"
+date:   2020-06-25 15:44:17 +0200
+image: /assets/img/github.png
+---
+Website
+======
+------
+<br>
+
+Deze website heb ik gemaakt om simpel weg mijn projecten te tonen.
+Op deze website laat ik projecten zien waar ik trots op ben. Verder kan ik deze website
+doorlinken naar mensen die meer van mij willen weten. Deze website linkt natuurlijk weer door
+naar mijn Github en andere zaken die iemand nodig heeft van mij.
+<br><br>
+Wat ik heb gebruikt om deze website te maken is:
+<br><br>
+* HTML/CSS
+* Jekyll
+* Github pages
+<br><br>
+Ik heb **jekyll** gebruikt om ervoor te zorgen dat ik geen database nodig heb.
+Jekyll zorgt er namelijk voor dat je website static is en dat je markdowns kan gebruiken
+om zo nieuwe projecten toe te voegen. Dit zorgt er dus voor dat een database onnodig is.
+<br><br>
+Met jekyll maak je gebruik van HTML/CSS om de pagina's te maken en eventueel js voor interactie.
+Verder zijn de projecten die ik upload markdown files.
+<br><br>
+Om deze website te laten zien maak ik gebruik van github pages
+<br><br>
+[Github link](https://www.google.com)

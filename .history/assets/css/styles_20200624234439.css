@@ -1,0 +1,9 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+html{
+    width: 60%;
+    background-color: aqua;
+}

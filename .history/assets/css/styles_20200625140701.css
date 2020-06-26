@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background: url("../img/bgbg.svg") no-repeat top center;
+    background-size: 100vh cover;
+}
+
+#header{
+   margin: 15% 0% 0% 10%;
+   font-size: 2.4vh;
+   color: white;
+}
+
+#content{
+    margin: 60vh 0% 40% 10%;
+}
+
+.icon-button{
+    background-color: #FB6767;
+    border: none;
+    color: white;
+    padding: 16px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50%;
+}

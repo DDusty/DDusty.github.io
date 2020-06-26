@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', serif;
+    line-height: 1.6;
+    color: white;
+    text-decoration: none;
+}
+
+body{
+    background-color: #13554d;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%2313554d' cx='50' cy='0' r='50'/%3E%3Cg fill='%23185d52' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%231e6657' cx='50' cy='100' r='50'/%3E%3Cg fill='%23256e5c' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%232c7761' cx='50' cy='200' r='50'/%3E%3Cg fill='%23348065' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%233c8868' cx='50' cy='300' r='50'/%3E%3Cg fill='%2345916c' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%234f9a6f' cx='50' cy='400' r='50'/%3E%3Cg fill='%2359a272' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%2364ab75' cx='50' cy='500' r='50'/%3E%3Cg fill='%236fb477' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%237bbc7a' cx='50' cy='600' r='50'/%3E%3Cg fill='%2387c57c' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%2393ce7e' cx='50' cy='700' r='50'/%3E%3Cg fill='%23a1d680' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%23aede82' cx='50' cy='800' r='50'/%3E%3Cg fill='%23bde784' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%23cbef86' cx='50' cy='900' r='50'/%3E%3Cg fill='%23daf788' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23eaff8a' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+#hero{
+    margin: 0;
+    width: 40%;
+    margin-left: 30%;
+    height: 25vh;
+    text-align: center;
+    margin-top: 3vh;
+}
+
+h2{
+    z-index: 1;
+    color: white;
+    padding-top: 3vh;
+    font-size: 10vh;
+}
+
+#content{
+    font-size: 2vh;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.text-link{
+    position: relative;
+}
+
+.text-link:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 60%;
+    left: -0.1em;
+    right: -0.1em;
+    bottom: 0;
+    transition: top 200ms cubic-bezier(0, .8, .13, 1);
+    background-color: #1B2631;
+}
+
+.text-link:hover:after {
+    top: 0%;
+}

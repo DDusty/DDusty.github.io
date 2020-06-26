@@ -1,0 +1,8 @@
+html{
+    margin:0;
+    padding:5vh;
+}
+
+#hero{
+    background-image: url("{{page.image}}");
+}

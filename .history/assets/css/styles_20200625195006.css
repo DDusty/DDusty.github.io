@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: 'Roboto', serif;
+    background-color: #ff9d00;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%23000' stroke-width='66.7' stroke-opacity='0.05' %3E%3Ccircle fill='%23ff9d00' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%23fb8d17' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%23f47d24' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%23ed6e2d' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%23e35f34' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%23d85239' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%23cc453e' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%23be3941' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%23b02f43' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%23a02644' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%23901e44' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%23801843' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%236f1341' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%235e0f3d' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%234e0c38' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%233e0933' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%232e062c' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%23210024' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#header{
+   padding: 40% 0% 0% 10%;
+   font-size: 2.4vh;
+   color: white;
+}
+
+#header-section{
+    width: 50%;
+    height: 100vh;
+    overflow: hidden; 
+    position: fixed;
+}
+
+.button{
+    background-color: #FB6767;
+    border: none;
+    color: white;
+    padding: 1vh 5vh;
+    font-size: 2vh;
+    cursor: pointer;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+}
+
+.icon-button{
+    background-color: #FB6767;
+    text-decoration: none;
+    background-position: 8px 8px;
+    background-repeat: no-repeat;
+    border: none;
+    color: white;
+    padding: 1vh 1.6vh;
+    margin-left: 5px;
+    font-size: 2vh;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all .2s ease-in-out;
+}
+
+.button:hover, .icon-button:hover{
+    background-color: green;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+#content-section{
+    width: 50%;
+    height: auto;
+    float: right;
+    background-color: white;
+    overflow: auto;
+    min-height: 100vh;
+}
+
+.project{
+    text-align: center;
+    height: 15vh;
+    background-color: green;
+    width: 60%;
+    padding: 5vh;
+    margin-left: 15%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.project > a {
+    color: white !important;
+    text-decoration: none;
+}
