@@ -1,10 +1,9 @@
 *{
     margin:0;
     padding:0;
-    font-family: 'Ubuntu', sans-serif;
-    line-height: 1.2;
+    font-family: 'Roboto', serif;
     line-height: 1.6;
-    color: white;
+    color: #1B2631;
     text-decoration: none;
 }
 
@@ -65,7 +64,7 @@ img{
     right: -0.1em;
     bottom: 0;
     transition: top 200ms cubic-bezier(0, .8, .13, 1);
-    background-color: #ff8a00;
+    background-color: yellow;
 }
 
 .text-link:hover:after {

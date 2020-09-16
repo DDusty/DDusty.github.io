@@ -3,7 +3,6 @@ layout: post
 title:  "Website"
 date:   2020-06-25 15:44:17 +0200
 image: /assets/img/background-website-project.png
-tags: Jekyll
 ---
 Website
 ======

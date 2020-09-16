@@ -3,18 +3,16 @@
     padding:0;
     color: white;
     text-decoration: none;
-    line-height: 1.2;
 }
 
 body{
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'DM Mono', monospace;
     background-color:#17141d;
     animation: fadein 0.5s;
 }
 
 #svg{
-    margin-left: 25rem;
-    margin-top: 7rem;
+    display: flex;
 
 }
 
@@ -37,7 +35,7 @@ body{
 
 .text-link{
     position: relative;
-    font-weight: 700;
+    font-weight: 900;
 }
 
 .text-link:after {
@@ -82,18 +80,4 @@ a.effect-underline:hover:after {
 
 footer{
     margin: 3rem 2rem 3rem 10rem;
-}
-
-#head{
-    animation: boppin infinite 1.2s alternate;
-}
-
-@keyframes boppin{
-    from{
-        transform: translateY(0px);
-    }
-
-    to{
-        transform: translateY(10px);
-    }
 }
