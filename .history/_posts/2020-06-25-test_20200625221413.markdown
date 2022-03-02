@@ -1,8 +1,0 @@
----
-layout: post
-title:  "Test post"
-date:   2020-06-25 15:44:17 +0200
-image: /assets/img/github.png
----
-Alt-H1
-======
