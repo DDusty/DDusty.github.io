@@ -6,15 +6,15 @@ const QuestionnaireComponent = (): JSX.Element => {
     <div className='questionnaire-container'>
         <div className='questionnaire-text-container'>
           <div className='questionnaire-text-wrapper'>
-            <h2>Bollify vragenlijst</h2>
-            De beste software voor Bol.com verkopers creëeren we samen. Om de functionaliteiten van Bollify te blijven verbeteren houden we contact met de grootste Bol.com verkopers. 
-            <br /><br />Wil jij jouw droom software in handen hebben? Geef dan jou input! Bollify luistert en zal altijd blijven optimaliseren.
+            <h2>De beste software voor Bol.com verkopers creëeren we samen.</h2>
+            Om de functionaliteiten van Bollify te blijven verbeteren houden we contact met de grootste Bol.com verkopers. 
+            <br /><br />Wil jij jouw droom software in handen hebben? Geef dan hier jou input! Bollify luistert en zal altijd blijven optimaliseren.
           </div>
         </div>
         <div className='questionnaire-questions-container'>
           <div className='questionnaire-box'>
             <span>1/3</span>
-            <h2>Is dusty hella sexy?</h2>
+            <h2>Is Bollify beter dan de rest?</h2>
             <form>
               <div className='questionnaire-choice-container'>
                 <input type="radio" id="age2" name="q1" value="Yes" />
