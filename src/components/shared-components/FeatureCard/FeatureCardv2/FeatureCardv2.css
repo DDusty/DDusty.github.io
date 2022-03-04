@@ -1,0 +1,36 @@
+.feature-card-v2-container {
+	width: 550px;
+	margin-bottom: 5rem;
+	display: flex;
+	flex-direction: column;
+	/* box-shadow: 0 1px 16px rgb(0 0 0 / 20%); */
+	border-radius: 15px;
+	padding: 2rem;
+}
+
+.feature-card-v2-icon-container {
+	display: flex;
+	margin-bottom: 16px;
+}
+
+.feature-card-v2-text-container {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+
+.feature-card-v2-text-container > span {
+	margin-bottom: 10px;
+	letter-spacing: 2px;
+	font-size: 25px;
+	color: black;
+}
+
+.feature-card-v2-text-container > p {
+	font-family: "Nunito Sans", sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	letter-spacing: 0.5px;
+	line-height: 1.375;
+	color: #343a40;
+}
