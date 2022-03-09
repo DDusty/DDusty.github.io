@@ -7,7 +7,7 @@ import { Route, Switch } from 'react-router-dom';
 import { ThemeSwitcherProvider } from "react-css-theme-switcher";
 import { THEME_CONFIG } from './configs/AppConfig';
 import LandingsPage from './views/landingspage/landingspage';
-import { StrapiServiceProvider } from './services/StrapiService';
+import { StrapiServiceProvider } from 'services/StrapiService';
 
 const themes = {
   dark: `${process.env.PUBLIC_URL}/css/dark-theme.css`,

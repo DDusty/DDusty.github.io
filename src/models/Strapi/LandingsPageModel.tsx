@@ -4,6 +4,7 @@ export type LandingsPageType = {
     Ucls: UclsType[],
     Questionnaire: QuestionnaireType[],
     FeatureBox: FeatureType[],
+    Timeline: TimelineType[]
 }
 
 export type UclsType = {
@@ -14,6 +15,12 @@ export type UclsType = {
 export type QuestionnaireType = {
     id: number,
     QuestionTitle: string
+    QuestionOptions: OptionsType[];
+}
+
+export type OptionsType = {
+    id: number,
+    Options: string
 }
 
 export type FeatureType = {
@@ -37,4 +44,11 @@ export type FeatureImgDataType = {
 
 export type FeatureImgUrlType = {
     url: string
+}
+
+export type TimelineType = {
+    id: number,
+    TimelineTitle: string,
+    TimelineDescription: string,
+    TimelineImg: FeatureImgType
 }

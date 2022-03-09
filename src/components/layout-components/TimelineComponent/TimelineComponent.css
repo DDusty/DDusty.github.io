@@ -1,0 +1,129 @@
+body {
+	background: #ffffff;
+}
+
+.timeline-container {
+	width: 100%;
+	height: 1700px;
+}
+
+.timeline {
+	margin: 0 auto;
+	padding: 5rem;
+	display: grid;
+	grid-template-columns: 1fr 3px 1fr;
+	font-family: "Fira Sans", sans-serif;
+	color: #777777;
+}
+
+.timeline__component.timeline__component--bg:nth-child(even) {
+	justify-self: flex-end;
+	display: flex;
+	flex-direction: column;
+}
+
+.timeline__component.timeline__component--bg:nth-child(even) > h2 {
+	align-self: flex-end;
+}
+
+.timeline__component {
+	margin: 0 20px 0px 20px;
+}
+
+.timeline__component:first-child {
+	justify-self: flex-end;
+}
+
+.timeline__component:nth-child(7n + 7) {
+	justify-self: flex-end;
+}
+
+.timeline__componentp:nth-child(even) {
+	align-self: flex-end;
+}
+
+.timeline__component--bg {
+	padding: 0em 1.5rem;
+	background: rgba(255, 255, 255, 0.2);
+}
+
+/* LEAVE TILL LAST */
+.timeline__component--bottom {
+	margin-bottom: 0;
+}
+
+.timeline__middle {
+	position: relative;
+	background: #d6d6d6;
+}
+
+/* .timeline__component.timeline__component--bg:last-child {
+	align-self: flex-end;
+	margin-bottom: -105px;
+} */
+
+.timeline__component.timeline__component--bg {
+	align-self: center;
+	margin-bottom: -90px;
+}
+/*  
+.timeline__component.timeline__component--bg:first-child {
+	align-self: flex-start;
+	margin-bottom: -105px;
+} */
+
+/*     align-self: flex-end;
+    margin-bottom: -105px; */
+
+.timeline__point {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 35px;
+	height: 35px;
+	background: white;
+	border: 5px solid #3191f0;
+	border-radius: 50%;
+	z-index: 1;
+}
+
+.timeline_img_container {
+	margin-top: 32px;
+}
+
+/* LEAVE TILL LAST */
+.timeline__point--bottom {
+	top: initial;
+	bottom: 0;
+}
+
+.timeline__date--right {
+	text-align: right;
+	color: #106fb4;
+}
+
+.timeline__title {
+	margin: 0;
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: black;
+	line-height: 0.7;
+}
+
+.timeline__paragraph {
+	line-height: 1.2;
+	margin-top: 13px;
+}
+
+.timeline__paragraph > p {
+	max-width: 300px;
+}
+
+.timeline__date {
+	color: #106fb4;
+}
+
+.titol {
+	font-style: italic;
+}

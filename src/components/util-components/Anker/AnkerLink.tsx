@@ -1,6 +1,6 @@
-import FeatureCardv2 from '../../../components/shared-components/FeatureCard/FeatureCardv2/FeatureCardv2';
-import { FeatureType } from '../../../models/Strapi/LandingsPageModel';
-import { StrapiContextType } from '../../../models/Strapi/StrapiContextType';
+import FeatureCardv2 from 'components/shared-components/FeatureCard/FeatureCardv2/FeatureCardv2';
+import { FeatureType } from 'models/Strapi/LandingsPageModel';
+import { StrapiContextType } from 'models/Strapi/StrapiContextType';
 import React, { useState } from 'react';
 
 const AnkerLink = (props: FeatureType): JSX.Element => {

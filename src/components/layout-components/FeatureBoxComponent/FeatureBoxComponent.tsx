@@ -1,6 +1,6 @@
 import React from 'react';
 import './FeatureBoxComponent.css';
-import { FeatureType } from '../../../models/Strapi/LandingsPageModel';
+import { FeatureType } from 'models/Strapi/LandingsPageModel';
 import ReactMarkdown from 'react-markdown';
 
 const FeatureBoxComponent = (prop: FeatureType): JSX.Element => {

@@ -1,8 +1,8 @@
-import FeatureCardv2 from '../../../components/shared-components/FeatureCard/FeatureCardv2/FeatureCardv2';
-import AnkerLink from '../../../components/util-components/Anker/AnkerLink';
-import { StrapiContextType } from '../../../models/Strapi/StrapiContextType';
+import FeatureCardv2 from 'components/shared-components/FeatureCard/FeatureCardv2/FeatureCardv2';
+import AnkerLink from 'components/util-components/Anker/AnkerLink';
+import { StrapiContextType } from 'models/Strapi/StrapiContextType';
 import React, { useState } from 'react';
-import { StrapiServiceContext } from '../../../services/StrapiService';
+import { StrapiServiceContext } from 'services/StrapiService';
 import './AboutComponent.css';
 
 const AboutComponent = (): JSX.Element => {
@@ -11,7 +11,7 @@ const AboutComponent = (): JSX.Element => {
   ) as StrapiContextType;
   
   return (
-    <div className='about-container'>
+    <div className='about-container' id="features">
       <div className='about-wrapper'>
         <h2>{landingsPage.About}</h2>
         <p>Creëer betere producten, positionering en concurrentiestrategieën met accurate statistieken. 

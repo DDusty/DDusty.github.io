@@ -5,21 +5,6 @@ const BollifyFooterComponent = (): JSX.Element => {
   return (
       <div className='bollify-footer-container'>
         <footer>
-            <div className="top_header">
-                <section>
-                    <span><i className="fa fa-map-marker"></i></span>
-                    <span>Wibautstraat 45, Amsterdam</span>
-                </section>
-                <section>
-                    <span><i className="fa fa-phone"></i></span>
-                    <span>(+31) 612345678</span>
-                </section>
-                <section>
-                    <span><i className="fa fa-envelope"></i></span>
-                    <span>info@Bollify.nl</span>
-                </section>
-            </div>
-            <span className="border-shape"></span>
             <div className="bottom_content">
                 <section>
                     <a href="#"><i className="fa fa-facebook"></i></a>

@@ -7,6 +7,18 @@
 	justify-content: space-between;
 	display: flex;
 	align-items: center;
-	padding: 0rem 5rem;
+	padding: 0rem 16rem;
 	color: black;
+	position: fixed;
+	z-index: 100;
+}
+
+.nav-links > a {
+	color: #263238;
+	font-size: 1rem;
+	margin-right: 24px;
+}
+
+.nav-call-to-action {
+	margin-left: 5rem;
 }
