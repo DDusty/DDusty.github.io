@@ -20,7 +20,7 @@ export const StrapiServiceProvider: React.FC = ({ children }): any => {
   const [landingsPage, setLandingsPage] = React.useState<LandingsPageType>(defaultState.landingsPage);
 
   useEffect(() => {
-    axios.get(`http://localhost:1337/api/landingspages?populate[0]=Ucls&populate[1]=Questionnaire.QuestionOptions&populate[2]=FeatureBox.FeatureImg&populate[3]=TimeLine.TimelineImg`)
+    axios.get(`https://bollify.ew.r.appspot.com/api/landingspages?populate[0]=Ucls&populate[1]=Questionnaire.QuestionOptions&populate[2]=FeatureBox.FeatureImg&populate[3]=TimeLine.TimelineImg`)
       .then(res => {        
         const Title = res.data.data[0].attributes.Title;
         const About = res.data.data[0].attributes.About;
