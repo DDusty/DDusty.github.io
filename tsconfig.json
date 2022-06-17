@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "baseUrl": "src",
     "target": "es5",
     "lib": [
       "dom",
@@ -20,17 +19,9 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx"
+    
   },
   "include": [
     "src"
   ]
 }
-
-//old jsconfig
-// {
-//   "compilerOptions": {
-//     "jsx": "react",
-//     "baseUrl": "src"
-//   },
-//   "include": ["src"]
-// }
