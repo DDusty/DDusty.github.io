@@ -27,7 +27,7 @@
     "ethers": "^5.4.1",
     "framer-motion": "4.1.17",
     "material-ui-image": "^3.3.2",
-    "moment": "^2.29.1",
+    "moment": "^2.29.4",
     "numeral": "^2.0.6",
     "react": "^16.13.1",
     "react-circular-progressbar": "^2.0.3",
