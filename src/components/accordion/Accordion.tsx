@@ -1,4 +1,5 @@
 import { AnimatePresence, motion } from "framer-motion";
+import React from "react";
 import {HiChevronDown} from 'react-icons/hi';
 import {HiChevronUp} from 'react-icons/hi';
 
