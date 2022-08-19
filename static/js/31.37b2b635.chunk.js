@@ -1,1 +1,0 @@
-(this["webpackJsonptomb.finance"]=this["webpackJsonptomb.finance"]||[]).push([[31],{1536:function(n,c){}}]);
