@@ -4,8 +4,8 @@
     "static/js/1.713cd42a.chunk.js": "/static/js/1.713cd42a.chunk.js",
     "static/js/2.a4f9d0c5.chunk.js": "/static/js/2.a4f9d0c5.chunk.js",
     "main.css": "/static/css/main.59628406.chunk.css",
-    "main.js": "/static/js/main.ddd53b45.chunk.js",
-    "runtime-main.js": "/static/js/runtime-main.8f6f95a1.js",
+    "main.js": "/static/js/main.14a5eabf.chunk.js",
+    "runtime-main.js": "/static/js/runtime-main.2c027211.js",
     "static/js/5.972ff737.chunk.js": "/static/js/5.972ff737.chunk.js",
     "static/js/6.d0a4ecb0.chunk.js": "/static/js/6.d0a4ecb0.chunk.js",
     "static/js/7.a100df9b.chunk.js": "/static/js/7.a100df9b.chunk.js",
@@ -14,7 +14,7 @@
     "static/js/10.82db013d.chunk.js": "/static/js/10.82db013d.chunk.js",
     "static/js/11.28ae2710.chunk.js": "/static/js/11.28ae2710.chunk.js",
     "static/js/12.a1d1d41c.chunk.js": "/static/js/12.a1d1d41c.chunk.js",
-    "static/js/13.53312806.chunk.js": "/static/js/13.53312806.chunk.js",
+    "static/js/13.426e89cd.chunk.js": "/static/js/13.426e89cd.chunk.js",
     "static/js/14.84e94d97.chunk.js": "/static/js/14.84e94d97.chunk.js",
     "static/js/15.4bb00dae.chunk.js": "/static/js/15.4bb00dae.chunk.js",
     "static/js/16.e780a9b1.chunk.js": "/static/js/16.e780a9b1.chunk.js",
@@ -34,7 +34,7 @@
     "static/js/30.00b0aa7e.chunk.js": "/static/js/30.00b0aa7e.chunk.js",
     "static/js/31.37b2b635.chunk.js": "/static/js/31.37b2b635.chunk.js",
     "index.html": "/index.html",
-    "precache-manifest.1cd184c3b09c5eb1bfda377d61e711eb.js": "/precache-manifest.1cd184c3b09c5eb1bfda377d61e711eb.js",
+    "precache-manifest.6a3f85fcb7fa571bd165e054e2937b5a.js": "/precache-manifest.6a3f85fcb7fa571bd165e054e2937b5a.js",
     "service-worker.js": "/service-worker.js",
     "static/js/18.03030b59.chunk.js.LICENSE.txt": "/static/js/18.03030b59.chunk.js.LICENSE.txt",
     "static/js/2.a4f9d0c5.chunk.js.LICENSE.txt": "/static/js/2.a4f9d0c5.chunk.js.LICENSE.txt",
@@ -48,7 +48,7 @@
     "static/media/crypto_tomb_cash.svg": "/static/media/crypto_tomb_cash.f2b44ef4.svg",
     "static/media/crypto_tomb_share.svg": "/static/media/crypto_tomb_share.bf1a6c52.svg",
     "static/media/discord.svg": "/static/media/discord.5f33a495.svg",
-    "static/media/dogechain.svg": "/static/media/dogechain.589ff9ef.svg",
+    "static/media/dogefinance.png": "/static/media/dogefinance.8c7b643e.png",
     "static/media/ftm_logo_blue.svg": "/static/media/ftm_logo_blue.d8eaf3b2.svg",
     "static/media/github.svg": "/static/media/github.1f24f07c.svg",
     "static/media/metamask-fox.svg": "/static/media/metamask-fox.c06f3a3e.svg",
@@ -60,9 +60,9 @@
     "static/media/zoo_logo.svg": "/static/media/zoo_logo.d34dbeab.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8f6f95a1.js",
+    "static/js/runtime-main.2c027211.js",
     "static/js/5.972ff737.chunk.js",
     "static/css/main.59628406.chunk.css",
-    "static/js/main.ddd53b45.chunk.js"
+    "static/js/main.14a5eabf.chunk.js"
   ]
 }

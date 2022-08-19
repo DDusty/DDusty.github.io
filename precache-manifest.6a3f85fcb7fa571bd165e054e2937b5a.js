@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "42397f77ec9c5c4b9295bddfd173d86e",
+    "revision": "7805689c1cc622893f0bed63c6101cc4",
     "url": "/index.html"
   },
   {
-    "revision": "98fa4293b31960f10ffd",
+    "revision": "77e4ac7114f2ab8fee0d",
     "url": "/static/css/main.59628406.chunk.css"
   },
   {
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/12.a1d1d41c.chunk.js"
   },
   {
-    "revision": "13806d1ec3c167d3794b",
-    "url": "/static/js/13.53312806.chunk.js"
+    "revision": "3a2d5c3c6a3cc42b2b58",
+    "url": "/static/js/13.426e89cd.chunk.js"
   },
   {
     "revision": "e7c80affd4c2b6f9147e",
@@ -160,12 +160,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/9.c2d8cc82.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "98fa4293b31960f10ffd",
-    "url": "/static/js/main.ddd53b45.chunk.js"
+    "revision": "77e4ac7114f2ab8fee0d",
+    "url": "/static/js/main.14a5eabf.chunk.js"
   },
   {
-    "revision": "46ea4349dda8250c2ba1",
-    "url": "/static/js/runtime-main.8f6f95a1.js"
+    "revision": "7a3b9e95f279d376f7f0",
+    "url": "/static/js/runtime-main.2c027211.js"
   },
   {
     "revision": "f3331ee892233fc83932c9e5873c1523",
@@ -184,8 +184,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/discord.5f33a495.svg"
   },
   {
-    "revision": "589ff9ef11790f2338634aa44221564e",
-    "url": "/static/media/dogechain.589ff9ef.svg"
+    "revision": "8c7b643e4f66f036e2e1c9219849edbf",
+    "url": "/static/media/dogefinance.8c7b643e.png"
   },
   {
     "revision": "d8eaf3b25aed09659f2d497fb4072914",
